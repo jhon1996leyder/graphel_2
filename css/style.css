@@ -1,0 +1,432 @@
+
+main{
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: black;
+    padding: 5px;
+    margin:0 0px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.active{
+    color: #1293cd;
+}
+
+nav{
+    display: flex;
+    justify-items: flex-start;
+    margin: 20px;
+}
+
+a{
+    color: #eff2f7;
+    padding:20px;
+    font-size: 1.0em;
+    text-decoration: none;
+}
+
+.multimedia{
+    color: aliceblue;
+    font-size: 2.4em;
+}
+
+hr{
+    margin: 0;
+    padding: 2px;
+    background-color:#1293d4;
+}
+
+span{
+    color: #1578a6;
+}
+
+.tecnologia{ 
+    height: 600px;
+    background-image: url(../image/cabecera.jpg);
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #eff2f7;
+}
+
+.titulo2{
+    margin: 0;
+}
+
+.p1{
+    text-align: center;
+}
+
+.div1{
+    background: black;
+    padding: 5px;
+    margin:0 0px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+input{
+    margin: 25px 0;
+    padding: 10px 50px 10px 0;
+}
+
+button{
+    background:#e8491d;
+    color: #eff2f7;
+    padding: 10px 40px;
+}
+
+.logos{
+    padding: 30px 200px;
+    margin: 20px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #1293cd;
+    padding:20px ;
+    color: #eff2f7;
+}
+
+img{
+    width: 150px; 
+}
+
+/*---------------SEGUNDA PAGINA NOSOTROS -------------*/
+
+.div2{
+    padding:15px 0px 0px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;  
+}
+
+.nosotros{
+    margin: 5px 10px 10px 0;
+} 
+
+.parrafo1{
+    margin: 5px 100px 10px 0;
+    text-align: start;
+
+}
+
+.parrafo2{
+    background-color:#35424a;
+    padding: 20px;
+    margin: 5px 110px 10px 0;
+    color: aliceblue;
+    text-align: start;
+}
+
+.imagen2{
+    width: 1080px;
+    margin:10px 0px;
+}
+
+.div3{
+    color: aliceblue;
+    padding: 0px 20px;
+    background-color:#35424a;
+    margin: 20px 140px 345px 0;
+}
+
+.parrafo3{
+    text-align: start;
+}
+
+/*---------------SEGUNDA PAGINA SERVICIOS -------------*/
+
+.texto1{
+    background-color: #f4f4f4 ;
+    padding:15px 0px 0px 160px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.div6{
+    margin: 20px 130px 620px 0px;
+    background-color:#35424a;
+    padding: 20px;
+    color: aliceblue;
+    text-align: start;
+}
+
+.div7{
+    width: 250%;
+    padding: 0px 20px;
+    margin:10px;
+}
+
+.parrafo4{
+    margin: 10px 10px 10px 0;
+    background-color: #e6e6e6;
+    text-align: start;
+    padding: 30px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-width: 1px;
+}
+
+/*---------------SEGUNDA PAGINA CONTACTO -------------*/
+
+.div8{
+    display: flex;
+    flex-direction: row;
+    background-color:#e6e6e6;
+    padding: 0 0 0 100px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin:0 50px 10px 165px;
+}
+
+.contenedor_negro{
+    background-color: #35424a;
+    margin: 20px 0 10px 50px;
+    width: 270px;
+    padding: 10px;
+    height: 230px;
+    color: white;
+}
+
+.consulta{
+    width: 93%;
+    margin: 0;
+}
+
+.mapa{
+    width: 290px;
+    height: 240px;
+    margin: 10px 0px 10px 50px;
+}
+
+.button1{
+    background:#e8491d;
+    width: 98%;
+    margin:10px 0px  10px 0;
+}
+
+
+/*--------------------------------*/
+
+@media (max-width:1200px) {
+
+    body{
+        margin: auto;
+        width: 100%;
+    }
+    main{
+        margin:0;
+    }
+
+    .div2{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+            
+    .texto{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .div3{
+        width: 95%;
+        margin: 0;
+    }
+
+    .imagen2{
+        margin: 0;
+        width: 100%;
+    }
+
+    .div8{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .formulario{
+        padding: 0;
+        margin: 0;
+    }
+
+    input{
+        width: 50%;
+    }
+
+    .consulta{
+        width: 80%;
+    }
+}
+
+/*--------------------------------*/
+
+@media (max-width:996px) {
+
+    body{
+        font-size: 30px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .multimedia{
+        text-align: center;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+   .tecnologia{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   .titulo2{
+    text-align: center;
+   }
+
+   .div1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   }
+
+    .m{
+     text-align: center;
+     padding: 20px;
+    }
+
+    button{
+        font-size: 30px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .div3{
+        margin: 5px;
+        padding: 0;
+    }
+    .imagen2{
+        width: 100%;
+    }
+    .parrafo2{
+        font-size: 30px;
+        margin: 5px 0 5px 0;
+    }
+
+    .texto1{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .div6{
+        width: 90%;
+        margin: 0;
+    }
+
+    .div7{
+        padding: 0;
+        width: 95%;
+    }
+    
+     .contenedor_negro{
+         width: 90%;
+         margin: 0;
+         height: 500px;
+     }
+
+     .mapa{
+         margin: 0;
+         width: 100%;
+         height: 80%;
+     }
+
+     .nosotros{
+         width: 98%;
+         
+     }
+
+     .parrafo4{
+         margin: 0;
+         padding: 10px;
+         width: 85%;
+     }
+
+}
+    
+
+@media (max-width:600px){
+    .multimedia{
+        font-size: 50px;
+    }
+    main{
+        margin: 0%;
+    }
+
+    .logos{
+        margin: 0;
+        padding: 0;
+    }
+    .div7{
+        margin: 0;
+    }
+    .div6{
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
